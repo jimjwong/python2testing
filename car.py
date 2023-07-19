@@ -23,8 +23,10 @@ class Car:
         print(f"This {self.model} is driving")
     
     def stop(self):
-#         print("This car is stopped")
         print(f"This {self.model} is stopped")
 
     def accelerate(self):
         print(f"This {self.model} is accelerating")
+
+    def crash_detect(self):
+        print(f"Crash detected for {self.model}")
